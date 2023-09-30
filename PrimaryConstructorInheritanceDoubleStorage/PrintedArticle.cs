@@ -7,6 +7,6 @@ public class PrintedArticle(string author, string title, int noPages)
 
     public override string ToString()
     {
-        return $"{title} by {author} ({noPages} pages)";
+        return $"{Title} by {Author} ({noPages} pages)";
     }
 }
